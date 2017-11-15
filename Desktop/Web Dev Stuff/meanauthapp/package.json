@@ -1,0 +1,30 @@
+{
+  "name": "meanauthapp",
+  "version": "1.0.0",
+  "description": "MEAN auth app for practice",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app"
+  },
+  "dependencies":{
+    "express":"*",
+    "mongoose":"*",
+    "bcryptjs":"*",
+    "cors":"*",
+    "jsonwebtoken":"*",
+    "body-parser":"*",
+    "passport":"*",
+    "passport-jwt":"*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LorenzoWhite/meanauthapp.git"
+  },
+  "author": "Zo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LorenzoWhite/meanauthapp/issues"
+  },
+  "homepage": "https://github.com/LorenzoWhite/meanauthapp#readme"
+}
