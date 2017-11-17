@@ -1,9 +1,9 @@
 const express = require('express');
 const router = express.Router();
-const User = require('../models/user')
-const passport = require('passport')
-const jwt = require('jsonwebtoken')
-const config = require('../config/database')
+const User = require('../models/user');
+const passport = require('passport');
+const jwt = require('jsonwebtoken');
+const config = require('../config/database');
 
 //register
 router.post('/register', (req, res, next) => {
@@ -36,7 +36,7 @@ router.post('/authenticate', (req, res, next) => {
     User.comparePassword(password, user.password, (err, isMatch) => {
       if (err) throw err;
       if (isMatch) {
-        const token = jwt.sign(user, config.secret, {expiresIn: 604800});
+        const token = jwt.sign({data:user}, config.secret, {expiresIn: 604800});
 
         res.json({
           success: true,
@@ -59,8 +59,9 @@ router.post('/authenticate', (req, res, next) => {
 });
 
 //profile
-router.get('/profile', (req, res, next) => {
-  res.send('profile')
+router.get('/profile', passport.authenticate('jwt', {session:false}), (req, res, next) => {
+  //TODO: Remake json request such that it doesn't return the pass hash
+  res.json({user: req.user})
 });
 
 
