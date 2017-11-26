@@ -26,5 +26,8 @@
   "bugs": {
     "url": "https://github.com/LorenzoWhite/meanauthapp/issues"
   },
-  "homepage": "https://github.com/LorenzoWhite/meanauthapp#readme"
+  "homepage": "https://github.com/LorenzoWhite/meanauthapp#readme",
+  "devDependencies": {
+    "@angular/cli": "^1.5.2"
+  }
 }
