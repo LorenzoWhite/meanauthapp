@@ -17,6 +17,8 @@ import { ValidateService } from './services/validate.service';
 import { AuthService } from './services/auth.service';
 import { FlashMessagesModule } from 'angular2-flash-messages';
 import { HttpModule } from '@angular/http';
+import { ProfileComponent } from './components/profile/profile.component';
+import { NewsComponent } from './components/news/news.component';
 
 @NgModule({
   declarations: [
@@ -28,6 +30,8 @@ import { HttpModule } from '@angular/http';
     HomeComponent,
     HighlightDirective,
     ShrinkDirective,
+    ProfileComponent,
+    NewsComponent,
   ],
   imports: [
     BrowserModule,
