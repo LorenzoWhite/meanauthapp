@@ -8,7 +8,9 @@ import { DashboardComponent } from './components/dashboard/dashboard.component';
 import { RegisterComponent } from './components/register/register.component';
 import { HomeComponent } from './components/home/home.component';
 import { ProfileComponent } from './components/profile/profile.component';
-import { NewsComponent } from './components/news/news.component'
+import { PricingComponent } from './components/pricing/pricing.component';
+import { AboutComponent } from './components/about/about.component';
+import { FillerbookingComponent } from './components/fillerbooking/fillerbooking.component';
 
 const routes: Routes = [
   { path: 'home', component: HomeComponent},
@@ -18,7 +20,9 @@ const routes: Routes = [
   { path: 'register', component: RegisterComponent},
   { path: 'navbar', component: NavbarComponent},
   { path: 'profile', component: ProfileComponent},
-  { path: 'news', component: NewsComponent}
+  { path: 'pricing', component: PricingComponent},
+  { path: 'about', component: AboutComponent},
+  { path: 'contact', component: FillerbookingComponent},
 ]
 
 @NgModule({

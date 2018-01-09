@@ -18,7 +18,9 @@ import { AuthService } from './services/auth.service';
 import { FlashMessagesModule } from 'angular2-flash-messages';
 import { HttpModule } from '@angular/http';
 import { ProfileComponent } from './components/profile/profile.component';
-import { NewsComponent } from './components/news/news.component';
+import { PricingComponent } from './components/pricing/pricing.component';
+import { AboutComponent } from './components/about/about.component';
+import { FillerbookingComponent } from './components/fillerbooking/fillerbooking.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +33,9 @@ import { NewsComponent } from './components/news/news.component';
     HighlightDirective,
     ShrinkDirective,
     ProfileComponent,
-    NewsComponent,
+    PricingComponent,
+    AboutComponent,
+    FillerbookingComponent,
   ],
   imports: [
     BrowserModule,

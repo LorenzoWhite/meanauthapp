@@ -1,0 +1,17 @@
+.container-new {
+  text-align: center;
+  height: auto;
+  width: 100%
+}
+
+.box {
+  position: absolute;
+  left:29%;
+  top: 40%;
+  height: 160px;
+  width: 500px;
+  background-color: #A8A7A8;
+  border-radius: 4px;
+  padding: 60px;
+  box-shadow: 0 0 15px #202020;
+}

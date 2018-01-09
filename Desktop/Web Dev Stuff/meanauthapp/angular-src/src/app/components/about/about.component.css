@@ -1,0 +1,14 @@
+.card {
+  width: 20rem;
+  margin: 0 auto; /* Added */
+  float: none; /* Added */
+  margin-top: 60px;
+}
+
+.container-fluid {
+  background-image: url(../../../assets/images/laptopstock.png);
+  background-color: gray;
+  background-position: center;
+  background-size: cover;
+  height: 700px;
+}

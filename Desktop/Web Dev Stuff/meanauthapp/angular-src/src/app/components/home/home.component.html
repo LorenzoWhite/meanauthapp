@@ -1,22 +1,27 @@
-<div class="jumbotron text-center">
-  <h1>MEAN Authentication App</h1>
-  <p class="lead">Welcome to our custom MEAN authentication application built from scratch</p>
-  <div>
-    <a class="btn btn-primary" [routerLink]="['/register']">Register</a> <a class="btn btn-default" [routerLink]="['/login']">Login</a>
+<div class="jumbotron jumbotron-fluid text-center fade-in one">
+  <div class='container-fluid'>
+    <h1 class="jumbo-head">Don't want to go into the shop?</h1>
+    <p class="lead">Have one of our certified technicians come to you</p>
+    <div>
+      <a class="btn btn-primary" [routerLink]="['/contact']">Book an appointment</a>
+    </div>
   </div>
 </div>
 
-<div class="row">
-  <div class="col-md-4">
-    <h3>Express Backend</h3>
-    <p>A rock solid Node.js/Express server using Mongoose to organize models and query the database</p>
+<div class="row description-box">
+  <div class="col-md-4 description fade-in two">
+    <span class="new-icon"><img src="../../../assets/images/techs.png"/></span>
+    <h3 class="text-center">Reliable Technicians</h3>
+    <p class="description-text text-center">NDTechs pride themselves on bringing top quality repairs to each and every customer.</p>
   </div>
-  <div class="col-md-4">
-    <h3>Angular-CLI</h3>
-    <p>Angular-CLI to generate components, services and more. Local dev server and easy compilation</p>
+  <div class="col-md-4 description fade-in three">
+    <span class="new-icon"><img src="../../../assets/images/service.png"/></span>
+    <h3 class="text-center">Customer-first Service</h3>
+    <p class="description-text text-center">We know how stressful having a broken device can be; We make sure to provide the most seemless experience possible.</p>
   </div>
-  <div class="col-md-4">
-    <h3>JWT Tokens</h3>
-    <p>Full featured authentication using JSON web tokens. Login and store user data</p>
+  <div class="col-md-4 description fade-in four">
+    <span class="new-icon"><img src="../../../assets/images/quickly.png"/></span>
+    <h3 class="text-center">Quick and Easy</h3>
+    <p class="description-text text-center">Repairs take no more than 30 minutes; Your devices will be as good as new in no time.</p>
   </div>
 </div>

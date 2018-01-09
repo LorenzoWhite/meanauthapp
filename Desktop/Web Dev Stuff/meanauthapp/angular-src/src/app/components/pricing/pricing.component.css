@@ -1,0 +1,108 @@
+.pricing-table {
+  margin-top: 30px;
+}
+
+.jumbotron {
+  height: 250px;
+  top: 4rem;
+  position: absolute;
+  width: 100%;
+  background-color: #2A363B;
+  color: white;
+}
+
+.jumbo-head {
+  padding-top: 50px;
+  letter-spacing: 1em;
+  font-family: 'Raleway', sans-serif;
+}
+
+.container {
+  margin-top: 200px;
+}
+
+.card-title {
+  padding-top: 1.25rem;
+  padding-left: 1.25rem;
+  margin-left: 25px;
+}
+
+.table {
+  margin-top: .5rem;
+  margin-bottom: 0;
+}
+
+.card {
+  box-shadow: 0 0 15px #202020;
+  border-radius: 0px;
+  min-width: 297px;
+  border-bottom: 1px solid;
+}
+
+.logo {
+  height:40px;
+  width: 40px;
+  position: absolute;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: block;
+  float: left;
+  top: 7px;
+  left: 2px;
+
+}
+
+.apple-logo {
+  background-image: url(../../../assets/images/apple-logo.png);
+}
+
+.iphone-logo {
+  background-image: url(../../../assets/images/iphone.png);
+  top: 10px;
+  left: 5px;
+}
+
+.android-logo {
+  background-image: url(../../../assets/images/android-logo.png);
+}
+
+.ipad-logo {
+  background-image: url(../../../assets/images/ipad.png);
+  margin-top: 3px;
+}
+
+.tall {
+  height: 700px;
+}
+
+@@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.fade-in {
+  opacity: 0;
+  animation: fadeIn 1s ease-in;
+  animation-fill-mode: forwards;
+}
+
+.one {
+  animation-delay: 1s;
+}
+
+.two {
+  animation-delay: 1.5s;
+}
+
+.three {
+  animation-delay: 2s;
+}
+
+.four {
+  animation-delay: 2.5s;
+}
